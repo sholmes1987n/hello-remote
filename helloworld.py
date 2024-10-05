@@ -1,3 +1,4 @@
-print("Hello world!")
-print("Hi")
-print("Hello")
+import sys
+
+name = sys.argv[1]
+print("Hello {}!".format(name))
